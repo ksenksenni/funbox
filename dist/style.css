@@ -1,1 +1,109 @@
-@font-face{font-family:'Exo2.0-Thin';src:url(../fonts/Exo20-Thin.eot);src:url(../fonts/Exo20-Thin.eot) format("embedded-opentype"),url(../fonts/Exo20-Thin.woff2) format("woff2"),url(../fonts/Exo20-Thin.woff) format("woff"),url(../fonts/Exo20-Thin.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:TrebuchetMS-Regular;src:url(../fonts/TrebuchetMSRegular.eot);src:url(../fonts/TrebuchetMSRegular.eot) format("embedded-opentype"),url(../fonts/TrebuchetMSRegular.woff2) format("woff2"),url(../fonts/TrebuchetMSRegular.woff) format("woff"),url(../fonts/TrebuchetMSRegular.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:TrebuchetMS-Bold;src:url(../fonts/TrebuchetMSBold.eot);src:url(../fonts/TrebuchetMSBold.eot) format("embedded-opentype"),url(../fonts/TrebuchetMSBold.woff2) format("woff2"),url(../fonts/TrebuchetMSBold.woff) format("woff"),url(../fonts/TrebuchetMSBold.ttf) format("truetype");font-weight:700;font-style:normal}body{padding:0;margin:0;font-family:TrebuchetMS-Regular,sans-serif;font-size:16px;font-weight:400;color:#666;background-image:url(../img/bg.png)}.container{max-width:1280px;margin:0 auto;box-sizing:border-box}.block-title{font-family:'Exo2.0-Thin',sans-serif;font-size:36px;color:#fff;text-align:center}
+@font-face {
+  font-family: 'Exo2.0-Thin';
+  src: url("../fonts/Exo20-Thin.eot");
+  src: url("../fonts/Exo20-Thin.eot") format("embedded-opentype"), url("../fonts/Exo20-Thin.woff2") format("woff2"), url("../fonts/Exo20-Thin.woff") format("woff"), url("../fonts/Exo20-Thin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'TrebuchetMS-Regular';
+  src: url("../fonts/TrebuchetMSRegular.eot");
+  src: url("../fonts/TrebuchetMSRegular.eot") format("embedded-opentype"), url("../fonts/TrebuchetMSRegular.woff2") format("woff2"), url("../fonts/TrebuchetMSRegular.woff") format("woff"), url("../fonts/TrebuchetMSRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'TrebuchetMS-Bold';
+  src: url("../fonts/TrebuchetMSBold.eot");
+  src: url("../fonts/TrebuchetMSBold.eot") format("embedded-opentype"), url("../fonts/TrebuchetMSBold.woff2") format("woff2"), url("../fonts/TrebuchetMSBold.woff") format("woff"), url("../fonts/TrebuchetMSBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'TrebuchetMS-Regular', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #666666;
+  background-image: url(../img/bg.png); }
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  box-sizing: border-box; }
+
+.block-title {
+  font-family: 'Exo2.0-Thin', sans-serif;
+  font-size: 36px;
+  color: #ffffff;
+  text-align: center; }
+
+.block-items-item {
+  width: 320px; }
+
+.block-items-item-card {
+  position: relative;
+  width: 100%;
+  height: 480px;
+  background-image: url(../img/Photo.png);
+  background-repeat: no-repeat;
+  padding-left: 50px; }
+
+.block-items-item-card-text {
+  width: 210px;
+  margin: 0; }
+
+.block-items-item-card-text-caption {
+  padding-top: 20px;
+  margin: 0; }
+
+.block-items-item-card-text-title {
+  font-family: 'TrebuchetMS-Bold', sans-serif;
+  font-size: 48px;
+  color: #000000;
+  margin: 0;
+  padding-top: 15px; }
+
+.block-items-item-card-text-heading {
+  font-family: 'TrebuchetMS-Bold', sans-serif;
+  font-size: 24px;
+  color: #000000;
+  margin: 0; }
+
+.block-items-item-card-text-description {
+  font-size: 14px;
+  line-height: 16px; }
+
+.block-items-item-card-weight {
+  position: absolute;
+  bottom: 15px;
+  right: 62px;
+  text-align: center;
+  font-family: 'TrebuchetMS-Bold', sans-serif;
+  color: #ffffff;
+  background-color: #1698d9;
+  padding: 9px 12px;
+  border-radius: 50%; }
+
+.block-items-item-card-weight-number {
+  font-size: 40px;
+  margin: 0; }
+
+.block-items-item-card-weight-kg {
+  font-size: 20px;
+  margin: 0;
+  margin-top: -5px; }
+
+.block-items-item-text {
+  font-family: 'TrebuchetMS-Regular', sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 16px; }
+
+.block-items-item-text-link {
+  color: #1698d9;
+  text-decoration: none;
+  border-bottom: 1px dashed #1698d9; }
