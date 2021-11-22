@@ -30,14 +30,21 @@ body {
 
 .container {
   max-width: 1280px;
-  margin: 0 auto;
-  box-sizing: border-box; }
+  margin: 0 auto; }
+
+.block {
+  max-width: 1120px;
+  vertical-align: middle; }
 
 .block-title {
   font-family: 'Exo2.0-Thin', sans-serif;
   font-size: 36px;
   color: #ffffff;
   text-align: center; }
+
+.block-items {
+  display: flex;
+  justify-content: space-between; }
 
 .block-items-item {
   width: 320px; }
